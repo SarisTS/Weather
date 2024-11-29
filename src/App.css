@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(211, 211, 212);
+  background-image: url(./assets/pexels-tahir-shaw-50609-186980.jpg);
+  background-size: cover;
+}
+.container{
+  width: 400px;
+  background: linear-gradient(rgb(26, 183, 246), #fff,rgb(49, 252, 49));
+  padding: 20px;
+  border-radius: 5px;
+}
+.heading{
+  text-align: center;
+  margin-bottom: 20px;
+  color: teal;
+  font-family: cursive;
+}
+.input_search{
+  padding: 5px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  margin: 5px 5px;
+  border-radius: 5px;
+}
+.input_search img{
+  height: 15px;
+  width: 15px;
+  cursor: pointer;
+}
+.input_search input{
+  width: 90%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+}
+.data .image{
+  text-align: center;
+}
+.data .image img{
+  width: 150px;
+  height: 150px;
+}
+.weather_data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather_data p{
+  margin: 10px 0px;
+}
+.temp,.country{
+  font-size: 25px;
+}
+.description{
+  font-size: 20px;
+}
+.country{
+  color: blue;
+}
+.location{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+.lat,.lon{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.wind_humidity{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.wind_humidity img{
+  width: 40px;
+  height: 30px;
+}
+.wind_humidity p{
+  padding: 5px;
+}
+.loading{
+  text-align: center;
+  padding-top: 100px;
+  color: #888;
+  font-size: 30px;
+  height: 300px;
+}
+.citynotfound{
+  text-align: center;
+  padding-top: 100px;
+  color: #888;
+  font-size: 30px;
+  height: 300px;
+}
